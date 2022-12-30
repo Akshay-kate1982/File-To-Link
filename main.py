@@ -22,7 +22,7 @@ logging.getLogger("aiohttp").setLevel(logging.ERROR)
 logging.getLogger("pyrogram").setLevel(logging.ERROR)
 logging.getLogger("aiohttp.web").setLevel(logging.ERROR)
 
-ppath = "DEMIGOD-AKSHAY/bot/plugins/*.py"
+ppath = "AKSHAY/bot/plugins/*.py"
 files = glob.glob(ppath)
 StreamBot.start()
 loop = asyncio.get_event_loop()
