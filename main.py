@@ -7,12 +7,12 @@ import logging
 import importlib
 from pathlib import Path
 from pyrogram import idle
-from .bot import StreamBot
-from .vars import Var
+from AKSHAY.bot import StreamBot
+from AKSHAY.vars import Var
 from aiohttp import web
-from .server import web_server
-from .utils.keepalive import ping_server
-from DEMIGOD-AKSHAY.bot.clients import initialize_clients
+from AKSHAY.server import web_server
+from AKSHAY.utils.keepalive import ping_server
+from AKSHAY.bot.clients import initialize_clients
 
 logging.basicConfig(
     level=logging.INFO,
