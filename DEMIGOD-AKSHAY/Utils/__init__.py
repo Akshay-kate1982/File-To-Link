@@ -1,1 +1,0 @@
-# (c) DEMIGOD-AKSHAY
